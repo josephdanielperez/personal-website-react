@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Personal Website - About This Project
+
+This project is built to further advance my skills with React. I also wanted to create a personal website that showcases my previous work, experiences, and media all whilst demonstrating my skills in development hands on.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
