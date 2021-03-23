@@ -9,7 +9,9 @@ function HeroSection() {
             <p>What are you waiting for?</p>
 
             <div className='hero-btns'>
-                <Button className='btns'
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+                    Get Started
+                </Button>
             </div>
         </div>
     )
