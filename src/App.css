@@ -5,7 +5,7 @@
     font-family: 'PT Sans', sans-serif;
 }
   
-.home, .projects, .about, .contact {
+.home, .about, .contact, .projects {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -13,8 +13,8 @@
     font-size: 3rem;
 }
   
-/* .services {
-    background-image: url('/images/img-2.jpg');
+.about {
+    background-image: url('./images/img-2.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,8 +22,8 @@
     font-size: 100px;
 }
   
-.products {
-    background-image: url('/images/img-1.jpg');
+.contact {
+    background-image: url('./images/img-1.jpeg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -31,11 +31,11 @@
     font-size: 100px;
 }
   
-.sign-up {
-    background-image: url('/images/img-8.jpg');
+.projects {
+    background-image: url('./images/img-8.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-} */
+}
