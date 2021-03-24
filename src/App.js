@@ -14,10 +14,19 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={ Home }/>
-        <Route path='/about' exact component={ About }/>
-        <Route path='/contact' exact component={ Contact }/>
-        <Route path='/projects' exact component={ Projects }/>
+        <Route path='/' exact component={ Home } />
+        <Route path='/about' exact component={ About } />
+        <Route path='/contact' exact component={ Contact } />
+        <Route path='/projects' exact component={ Projects } />
+
+        <Route path='/github' exact component={ () => {
+          window.location.href = 'https://github.com/p14';
+          return null;
+        }} />
+        <Route path='/linkedin' exact component={ () => {
+          window.location.href = 'https://linkedin.com/in/perezident14';
+          return null;
+        }} />
       </Switch>
     </Router>
   )

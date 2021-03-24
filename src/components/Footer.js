@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Button } from './Button'
 
 import './Footer.css'
@@ -23,13 +24,26 @@ function Footer() {
                 </div>
             </section>
 
-            <div className='footer-links'>
-                <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
+            <section className='social-media'>
+                <div className='social-media-wrap'>
+                    {/* <div className='footer-logo'>
+                        <Link to='/' className='social-logo'>
+                            P14 <i className='fas fa-code' />
+                        </Link>
+                    </div>
 
+                    <small className='website-rights'>P14 © 2021</small> */}
+
+                    <div className='social-icons'>
+                        <Link className='social-icon-link' to='/github' target='_blank' aria-label='Github'>
+                            <i className='fab fa-github'></i>
+                        </Link>
+                        <Link className='social-icon-link' to='/linkedin' target='_blank' aria-label='LinkedIn'>
+                            <i className='fab fa-linkedin'></i>
+                        </Link>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     )
 }
