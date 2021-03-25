@@ -18,14 +18,14 @@ function Cards() {
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
-                        <CardItem src={img1} text='MyFitnessApp - Answering the question "Where do I start?" when you step into the gym.' label='React' path='/projects' />
-                        <CardItem src={img2} text='a beach wow look there are probably sharks in there wowow' label='JavaScript' path='/projects' />
+                        <CardItem src={img1} text='MyFitnessApp - Answering the question "Where do I start?" when you step into the gym' label='React' path='/projects' />
+                        <CardItem src={img2} text='TodoList - Simple todo list application with CRUD capabilities and a stylish look' label='React' path='/projects' />
                     </ul>
 
                     <ul className='cards__items'>
-                        <CardItem src={img3} text='look, a neat mountain sunset... or sunrise?!' label='Ruby on Rails' path='/projects' />
-                        <CardItem src={img4} text='spoooooooooooooooooooooky' label='Ruby on Rails' path='/projects' />
-                        <CardItem src={img5} text='its called soccer, not football' label='Ruby on Rails' path='/projects' />
+                        <CardItem src={img3} text='Coaching Manager - An appointment scheduling application' label='Ruby on Rails' path='/projects' />
+                        <CardItem src={img4} text='PokeTeams - Social website where you an share your favorite teams' label='Ruby' path='/projects' />
+                        <CardItem src={img5} text='Gaming News CLI - Read 10 latest PC Gamer news articles' label='Ruby' path='/projects' />
                     </ul>
                 </div>
             </div>
