@@ -32,10 +32,12 @@
 }
   
 .projects {
-    background-image: url('./assets/images/img-4.jpeg');
+    background-image: url('./assets/images/img-16.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: #999;
     color: #fff;
     font-size: 100px;
 }

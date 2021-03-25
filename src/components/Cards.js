@@ -13,7 +13,7 @@ import img5 from '../assets/images/img-4.jpeg'
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out these awesome destinations!</h1>
+            <h1>Latest Projects</h1>
 
             <div className='cards__container'>
                 <div className='cards__wrapper'>
