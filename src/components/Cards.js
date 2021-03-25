@@ -18,7 +18,7 @@ function Cards() {
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
-                        <CardItem src={img1} text='Explore the hidden waterfall deep inside the Amazon Jungle' label='React' path='/projects' />
+                        <CardItem src={img1} text='MyFitnessApp - Answering the question "Where do I start?" when you step into the gym.' label='React' path='/projects' />
                         <CardItem src={img2} text='a beach wow look there are probably sharks in there wowow' label='JavaScript' path='/projects' />
                     </ul>
 
