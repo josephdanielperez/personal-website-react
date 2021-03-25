@@ -18,14 +18,14 @@ function Cards() {
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
-                        <CardItem src={img1} text='Explore the hidden waterfall deep inside the Amazon Jungle' label='Adventure' path='/projects' />
-                        <CardItem src={img2} text='a beach wow look there are probably sharks in there wowow' label='Adventure' path='/projects' />
+                        <CardItem src={img1} text='Explore the hidden waterfall deep inside the Amazon Jungle' label='React' path='/projects' />
+                        <CardItem src={img2} text='a beach wow look there are probably sharks in there wowow' label='JavaScript' path='/projects' />
                     </ul>
 
                     <ul className='cards__items'>
-                        <CardItem src={img3} text='look, a neat mountain sunset... or sunrise?!' label='Adventure' path='/projects' />
-                        <CardItem src={img4} text='spoooooooooooooooooooooky' label='Adventure' path='/projects' />
-                        <CardItem src={img5} text='its called soccer, not football' label='Adventure' path='/projects' />
+                        <CardItem src={img3} text='look, a neat mountain sunset... or sunrise?!' label='Ruby on Rails' path='/projects' />
+                        <CardItem src={img4} text='spoooooooooooooooooooooky' label='Ruby on Rails' path='/projects' />
+                        <CardItem src={img5} text='its called soccer, not football' label='Ruby on Rails' path='/projects' />
                     </ul>
                 </div>
             </div>
