@@ -3,15 +3,8 @@ import React from 'react'
 function ProjectItem(props) {
     return (
         <>
-            <li className='cards__item'>
-                <figure className='cards__item__pic-wrap' data-category={props.label}>
-                    <img src={props.src} alt='project screenshot' className='cards__item__img' />
-                </figure>
-
-                <div className='cards__item__info'>
-                    <h5 className='cards__item__text'>{props.text}</h5>
-                </div>
-            </li>
+            <h2>{props.title}</h2>
+            <p>{props.text}</p>
         </>
     )
 }
