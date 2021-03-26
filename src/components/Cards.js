@@ -3,17 +3,17 @@ import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
 
-import img1 from '../assets/images/img-9.jpeg'
-import img2 from '../assets/images/img-2.jpeg'
+import img1 from '../assets/images/img-17.png'
+import img2 from '../assets/images/img-18.png'
 
-import img3 from '../assets/images/img-1.jpeg'
-import img4 from '../assets/images/img-3.jpeg'
+import img3 from '../assets/images/img-19.png'
+import img4 from '../assets/images/img-20.png'
 import img5 from '../assets/images/img-4.jpeg'
 
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Latest Projects</h1>
+            <h1>My Latest Projects</h1>
 
             <div className='cards__container'>
                 <div className='cards__wrapper'>

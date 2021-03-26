@@ -7,7 +7,7 @@ function Projects() {
     
     return (
         <>
-            <h1 className='projects'>Software Engineering Projects</h1>
+            <h1 className='projects'>Projects</h1>
             <Cards />
         </>
     )
