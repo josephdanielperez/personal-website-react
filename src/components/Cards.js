@@ -3,11 +3,11 @@ import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
 
-import img1 from '../assets/images/myfitnessapp.png'
-import img2 from '../assets/images/todolist.png'
+import img1 from '../assets/images/mfa.png'
+import img2 from '../assets/images/todo.png'
 
-import img3 from '../assets/images/coachingmanager.png'
-import img4 from '../assets/images/poketeams.png'
+import img3 from '../assets/images/coach.png'
+import img4 from '../assets/images/poke.png'
 import img5 from '../assets/images/gamingnews.png'
 
 function Cards() {
