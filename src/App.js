@@ -20,12 +20,16 @@ function App() {
         <Route path='/contact' exact component={ Contact } />
         <Route path='/projects' exact component={ Projects } />
 
+        <Route path='/linkedin' exact component={ () => {
+          window.location.href = 'https://linkedin.com/in/perezident14';
+          return null;
+        }} />
         <Route path='/github' exact component={ () => {
           window.location.href = 'https://github.com/p14';
           return null;
         }} />
-        <Route path='/linkedin' exact component={ () => {
-          window.location.href = 'https://linkedin.com/in/perezident14';
+        <Route path='/medium' exact component={ () => {
+          window.location.href = 'https://medium.com/@p14';
           return null;
         }} />
       </Switch>

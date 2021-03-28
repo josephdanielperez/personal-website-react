@@ -10,13 +10,17 @@ function Footer() {
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='social-icons'>
+                        
+                        <Link className='social-icon-link' to='/linkedin' target='_blank' aria-label='LinkedIn'>
+                            <i className='fab fa-linkedin'></i>
+                        </Link>
 
                         <Link className='social-icon-link' to='/github' target='_blank' aria-label='Github'>
                             <i className='fab fa-github'></i>
                         </Link>
 
-                        <Link className='social-icon-link' to='/linkedin' target='_blank' aria-label='LinkedIn'>
-                            <i className='fab fa-linkedin'></i>
+                        <Link className='social-icon-link' to='/medium' target='_blank' aria-label='Medium'>
+                            <i className='fab fa-medium'></i>
                         </Link>
 
                     </div>

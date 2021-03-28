@@ -14,12 +14,26 @@
     font-size: 3rem;
 }
   
+.post-block {
+    display: block;
+    margin: 10vh 0 5vh 5vh;
+}
+
 .title {
     display: flex;
-    margin: 10vh 0 5vh 5vh;
+    margin: 0;
 }
 
 .text {
     display: flex;
-    margin: 0 10vh 5vh 5vh;
+    margin: 0;
+}
+
+.image {
+    display: flex;
+    float: left;
+    height: auto;
+    width: auto;
+    max-height: 25vh !important;
+    box-sizing: border-box;
 }
