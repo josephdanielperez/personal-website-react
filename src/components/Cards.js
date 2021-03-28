@@ -24,7 +24,7 @@ function Cards() {
 
                     <ul className='cards__items'>
                         <CardItem src={img3} text='Coaching Manager - An appointment scheduling application' label='Ruby on Rails' path='/projects' />
-                        <CardItem src={img4} text='PokeTeams - Social website where you an share your favorite teams' label='Ruby' path='/projects' />
+                        <CardItem src={img4} text='PokeTeams - Social website where you can share your Pokemon teams' label='Ruby' path='/projects' />
                         <CardItem src={img5} text='Gaming News CLI - Read 10 latest PC Gamer news articles' label='Ruby' path='/projects' />
                     </ul>
                 </div>
