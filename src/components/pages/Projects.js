@@ -3,8 +3,6 @@ import React from 'react'
 import '../../App.css'
 import ProjectItem from '../ProjectItem'
 
-import img1 from '../../assets/images/myfitnessapp.png'
-
 function Projects() {
     
     return (
