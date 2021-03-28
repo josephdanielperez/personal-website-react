@@ -7,38 +7,19 @@
   
 .home, .about, .contact, .projects {
     display: flex;
-    height: 90vh;
+    height: 20vh;
     /* align-items: center; */
     margin: 10vh 0 0 0;
     justify-content: center;
     font-size: 3rem;
 }
   
-/* .about {
-    background-image: url('./assets/images/img-2.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+.title {
+    display: flex;
+    margin: 10vh 0 5vh 5vh;
 }
-  
-.contact {
-    background-image: url('./assets/images/img-3.jpeg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+
+.text {
+    display: flex;
+    margin: 0 10vh 5vh 5vh;
 }
-  
-.projects {
-    background-image: url('./assets/images/img-16.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-color: #999;
-    color: #fff;
-    font-size: 100px;
-} */

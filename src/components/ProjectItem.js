@@ -3,8 +3,8 @@ import React from 'react'
 function ProjectItem(props) {
     return (
         <>
-            <h2>{props.title}</h2>
-            <p>{props.text}</p>
+            <h2 className='title'>{props.title}</h2>
+            <p className='text'>{props.text}</p>
         </>
     )
 }
