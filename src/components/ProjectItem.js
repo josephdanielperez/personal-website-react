@@ -3,7 +3,14 @@ import React from 'react'
 function ProjectItem(props) {
     return (
         <div className='post-block'>
-            <h2 className='title'>{props.title}</h2>
+            <div className='header'>
+                <h1 className='title'>{props.title}</h1>
+                
+                <div className='links'>
+                    <a href={props.github} target='_blank'>Github</a>
+                    <a href={props.github} target='_blank'>Demo</a>
+                </div>
+            </div>
 
             <div className='content'>
                 <img src={props.src} alt='project icon' className='image' />

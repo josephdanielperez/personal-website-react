@@ -26,9 +26,29 @@
     padding: 5vh;
 }
 
-.title {
-    display: flex;
+.header {
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
     margin: 15px 0;
+}
+
+.title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin: 15px 0; */
+}
+
+.links {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin: 15px 0; */
+}
+
+a {
+    margin: 0 5px;
 }
 
 .content {
