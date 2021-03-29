@@ -14,16 +14,22 @@
     font-size: 3rem;
 }
 
-/* .about {
-    background-image: ;
-} */
+.about {
+    background: url('./assets/images/img-2.jpg') center center/cover no-repeat;
+    background-blend-mode: multiply;
+    background-color: #999;
+    color: #fff;
+}
 
-/* .contact {
-    background-image: ;
-} */
+.contact {
+    background: url('./assets/images/img-3.jpg') center center/cover no-repeat;
+    background-blend-mode: multiply;
+    background-color: #999;
+    color: #fff;
+}
 
 .projects {
-    background: url('./assets/images/img-3.jpg') center center/cover no-repeat;
+    background: url('./assets/images/img-4.jpg') center center/cover no-repeat;
     background-blend-mode: multiply;
     background-color: #999;
     color: #fff;
