@@ -7,8 +7,9 @@ function ProjectItem(props) {
                 <h1 className='title'>{props.title}</h1>
                 
                 <div className='links'>
-                    <a href={props.github} target='_blank'>Github</a>
-                    <a href={props.github} target='_blank'>Demo</a>
+                    <a href={props.github} target='_blank' rel='noreferrer'>Github</a>
+                    |
+                    <a href={props.github} target='_blank' rel='noreferrer'>Demo</a>
                 </div>
             </div>
 
