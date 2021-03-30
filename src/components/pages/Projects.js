@@ -20,6 +20,8 @@ function Projects() {
                 demo=''
             />
 
+            <hr />
+
             <ProjectItem
                 title='TodoList'
                 text='A React application that does not utilize a backend library. This simple todo list application allows users to utilize CRUD capabilities on objectives and mark them for completition. This also comes in a stylish package to make for an easy UX.'
@@ -29,6 +31,8 @@ function Projects() {
                 demo=''
             />
 
+            <hr />
+
             <ProjectItem
                 title='Coaching Manager'
                 text='An appointment scheduling application that utilizes RESTful conventions and authentication. Athletes are able to schedule 30 minute training sessions with coaches in database during a specific hours of operation. These sessions are have CRUD functionality and can be changed or canceled after scheduling.'
@@ -37,6 +41,8 @@ function Projects() {
                 github='https://github.com/josephdanielperez/CoachingManager'
                 demo=''
             />
+
+            <hr />
             
             <ProjectItem
                 title='PokeTeams'
@@ -46,6 +52,8 @@ function Projects() {
                 github='https://github.com/josephdanielperez/PokeTeams'
                 demo=''
             />
+
+            <hr />
 
             <ProjectItem
                 title='Gaming News CLI'

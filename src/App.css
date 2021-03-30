@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
   
 .home, .about, .contact, .projects {
@@ -38,34 +38,28 @@
 .post-block {
     justify-content: center;
     align-items: center;
-    /* display: flex; */
     flex-direction: column;
     height: auto;
     width: auto;
-    max-width: 1000px;
+    max-width: 800px;
     margin: 5vh auto;
     padding: 5vh;
 }
 
 .header {
-    justify-content: center;
-    align-items: center;
-    /* display: flex; */
-    margin: 15px 0;
+    margin: 0 0 15px 0;
 }
 
 .title {
     justify-content: center;
     align-items: center;
     display: flex;
-    /* margin: 15px 0; */
 }
 
 .links {
     justify-content: center;
     align-items: center;
     display: flex;
-    /* margin: 15px 0; */
 }
 
 .links a, .links a:visited {
@@ -78,8 +72,8 @@
 }
 
 .text {
+    text-align: center;
     display: flex;
-    padding: 0 0 0 15px;
 }
 
 .image {
@@ -87,4 +81,11 @@
     float: left;
     width: auto;
     height: 20vh;
+}
+
+hr {
+    width: auto;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 5vh
 }
