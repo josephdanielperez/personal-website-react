@@ -33,6 +33,10 @@
     padding: 5vh;
 }
 
+.about-block h1 {
+    font-size: 2.2rem;
+}
+
 .contact {
     background: url('./assets/images/img-3.jpg') center center/cover no-repeat;
     background-blend-mode: multiply;

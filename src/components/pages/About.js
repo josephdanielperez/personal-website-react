@@ -11,9 +11,8 @@ function About() {
 
             <div className='about-block'>
                 <div className='header'>
-                    <h1 className='title'>Joseph Perez</h1>
-                    <br />
-                    <img src={img} alt='profile' className='image' />
+                    <h1 className='title'>Joseph Perez</h1><br />
+                    <img src={img} alt='profile' className='image' /><br />
                 </div>
 
                 <div className='content'>
