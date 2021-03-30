@@ -10,7 +10,6 @@ function Contact() {
 
             <div className='contact-block'>
                 <h2>All Inquiries</h2>
-                <br />
                 <p>joseph@p14.dev</p>
             </div>
         </>

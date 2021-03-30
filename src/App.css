@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6em;
 }
   
 .home, .about, .contact, .projects {
@@ -21,6 +22,17 @@
     color: #fff;
 }
 
+.about-block {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    max-width: 600px;
+    margin: 5vh auto;
+    padding: 5vh;
+}
+
 .contact {
     background: url('./assets/images/img-3.jpg') center center/cover no-repeat;
     background-blend-mode: multiply;
@@ -34,7 +46,7 @@
     justify-content: center;
     text-align: center;
     height: auto;
-    min-height: 60vh;
+    min-height: 75vh;
     width: auto;
     margin: auto auto;
 }
@@ -95,9 +107,10 @@
 
 .image {
     display: flex;
-    float: left;
     width: auto;
-    height: 20vh;
+    height: auto;
+    max-height: 30vh;
+    margin: 0 auto;
 }
 
 hr {
