@@ -19,9 +19,10 @@
 }
   
 .navbar-logo {
+    font-family: 'PT Sans';
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin: 0 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -43,7 +44,6 @@
     text-align: center;
     width: 60vw;
     justify-content: end;
-    margin-right: 2rem;
 }
   
 .nav-item {
@@ -80,6 +80,11 @@
     .NavbarItems {
         position: relative;
     }
+
+    .navbar-container {
+        width: 90vw;
+        justify-content: space-between;
+    }
   
     .nav-menu {
         display: flex;
@@ -115,25 +120,35 @@
     }
   
     .navbar-logo {
-        position: absolute;
+        color: #fff;
+        justify-self: start;
+        margin: 0 20px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        /* position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
+        transform: translate(25%, 50%); */
     }
   
     .menu-icon {
         display: block;
-        position: absolute;
+        margin: 0 20px;
+        /* position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-100%, 60%);
+        transform: translate(-100%, 60%); */
         font-size: 1.8rem;
         cursor: pointer;
     }
   
     .fa-times {
         color: #fff;
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
   
     .nav-links-mobile {
