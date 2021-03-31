@@ -19,7 +19,7 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo' onClick={ closeMobileMenu } >
+                    <Link to='/' className='navbar-logo' onClick={ closeMobileMenu }>
                         P14 <i className='fas fa-code' />
                     </Link>
 
