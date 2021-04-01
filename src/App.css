@@ -50,9 +50,13 @@
     justify-content: center;
     text-align: center;
     height: auto;
-    min-height: 60vh;
+    min-height: 57.7vh;
+    bottom: 0;
     width: auto;
     margin: auto auto;
+    top: 80px;
+    bottom: 80px;
+    overflow: hidden;
 }
 
 .contact-block a, .contact-block a:visited {
