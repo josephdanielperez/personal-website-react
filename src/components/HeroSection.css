@@ -7,7 +7,7 @@ video {
 }
   
 .hero-container {
-    background: url('../assets/images/img-1.png') center center/cover no-repeat;
+    background: url('../assets/images/img-1.jpg') center center/cover no-repeat;
     background-blend-mode: multiply;
     background-color: #999;
     height: 100vh;
