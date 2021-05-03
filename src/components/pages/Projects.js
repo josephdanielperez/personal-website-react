@@ -1,7 +1,7 @@
 import React from 'react'
 
 import '../../App.css'
-import ProjectItem from '../ProjectItem'
+import ProjectItem from './Project'
 
 function Projects() {
     
@@ -12,7 +12,7 @@ function Projects() {
             <ProjectItem
                 title='MyFitnessApp'
                 text='A React/Redux application that uses a React JS frontend and Ruby on Rails backend. This is a demonatration of a generator application to help provide structure to workouts. A user is able to create an account to access the application, then use the generator to state what type of workout they are interested in and how long they want their workout to be. The database of workouts also enables users to learn more about each individual exercise through an instructional video sourced online.'
-                label='React'
+                label='React/Redux'
                 github='https://github.com/josephdanielperez/myfitnessapp-client'
                 demo='https://youtu.be/vUDn1b-x7PU'
             />

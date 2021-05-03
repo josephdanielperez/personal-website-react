@@ -23,12 +23,13 @@
 }
 
 .about-block {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: auto;
     width: auto;
-    max-width: 600px;
+    max-width: 800px;
     margin: 5vh auto;
     padding: 5vh;
 }
@@ -81,7 +82,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto 0 auto;
-    width: 30%;
+    width: 25%;
 }
 
 .contact-block a, .contact-block a:visited {
@@ -131,11 +132,11 @@
 
 .content {
     display: flex;
+    text-align: left;
 }
 
-.text {
-    text-align: center;
-    display: flex;
+.content p {
+    margin: 0 1.5rem;
 }
 
 .image {
@@ -150,4 +151,11 @@ hr {
     width: 80vw;
     max-width: 600px;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        display: block;
+        text-align: center;
+    }
 }

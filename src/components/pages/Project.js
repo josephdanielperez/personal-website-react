@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProjectItem(props) {
+function Project(props) {
     return (
         <div className='post-block'>
             <div className='header'>
@@ -24,4 +24,4 @@ function ProjectItem(props) {
     )
 }
 
-export default ProjectItem
+export default Project
