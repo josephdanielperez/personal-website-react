@@ -28,7 +28,7 @@ function App() {
           return null;
         }} />
         <Route path='/medium' exact component={ () => {
-          window.location.href = 'https://p14.medium.com/';
+          window.location.href = 'https://p14.medium.com';
           return null;
         }} />
       </Switch>
