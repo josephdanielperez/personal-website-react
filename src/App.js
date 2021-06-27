@@ -24,7 +24,7 @@ function App() {
           return null;
         }} />
         <Route path='/github' exact component={ () => {
-          window.location.href = 'https://github.com/josephdanielperez';
+          window.location.href = 'https://github.com/p14';
           return null;
         }} />
         <Route path='/medium' exact component={ () => {
