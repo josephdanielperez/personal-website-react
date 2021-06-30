@@ -8,8 +8,10 @@ function Contact() {
     <>
       <h1 className='contact'>Contact</h1>
       <div className='contact-block'>
-        <h2>All Inquiries</h2>
-        <p><a href='mailto: joseph@p14.dev'>joseph@p14.dev</a></p>
+        <section className='email'>
+          <h2>All Inquiries</h2>
+          <p><a href='mailto: joseph@p14.dev'>joseph@p14.dev</a></p>
+        </section>
         <section className='social-media'>
           <div className='social-media-wrap'>
             <div className='social-icons'>

@@ -5,6 +5,10 @@
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.6em;
 }
+
+body {
+  min-height: 100%;
+}
   
 .home, .about, .contact, .projects {
   display: flex;
@@ -48,12 +52,12 @@
 .contact-block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   height: auto;
-  min-height: 57.7vh;
+  /* min-height: 57.7vh; */
   width: auto;
-  margin: auto auto;
+  margin: 100px auto;
 }
 
 .social-icon-link {
@@ -81,7 +85,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   width: 25%;
 }
 
