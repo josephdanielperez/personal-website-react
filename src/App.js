@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css'
 
 import Navbar from './components/Navbar'
-import About from './components/pages/About'
-import Contact from './components/pages/Contact'
-import Home from './components/pages/Home'
-import Projects from './components/pages/Projects'
+import About from './components/About'
+import Contact from './components/Contact'
+import Home from './components/Home'
+import Projects from './components/Projects'
 import Footer from './components/Footer'
 
 function App() {

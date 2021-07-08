@@ -1,7 +1,7 @@
 import React from 'react'
 
-import '../../App.css'
-import img from '../../assets/images/profile.jpg'
+import '../App.css'
+import img from '../assets/images/profile.jpg'
 
 function About() {
     
