@@ -1,17 +1,17 @@
 import React from 'react'
-import '../App.css'
+import './Contact.css'
 
 function Contact() {
   return (
-    <>
-      <h1 className='contact'>Contact</h1>
-      <div className='contact-block'>
+    <div className='contact-container'>
+      <h1 className='contact-header'>Contact</h1>
+      <div className='contact-content'>
         <section className='email'>
           <h2>All Inquiries</h2>
           <p><a href='mailto: joseph@p14.dev'>joseph@p14.dev</a></p>
         </section>
       </div>
-    </>
+    </div>
   )
 }
 
