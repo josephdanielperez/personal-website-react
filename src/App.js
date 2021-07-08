@@ -8,6 +8,7 @@ import About from './components/pages/About'
 import Contact from './components/pages/Contact'
 import Home from './components/pages/Home'
 import Projects from './components/pages/Projects'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -31,7 +32,25 @@ function App() {
           window.location.href = 'https://p14.medium.com';
           return null;
         }} />
+        <Route path='/twitter' exact component={ () => {
+          window.location.href = 'https://twitter.com/perezident14';
+          return null;
+        }} />
+        <Route path='/instagram' exact component={ () => {
+          window.location.href = 'https://instagram.com/perezident14';
+          return null;
+        }} />
+        <Route path='/youtube' exact component={ () => {
+          window.location.href = 'https://youtube.com/perezident14';
+          return null;
+        }} />
+        <Route path='/twitch' exact component={ () => {
+          window.location.href = 'https://twitch.tv/perezident14';
+          return null;
+        }} />
+
       </Switch>
+      <Footer />
     </Router>
   )
 }
