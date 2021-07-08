@@ -10,7 +10,7 @@ body {
   min-height: 100%;
 }
   
-.home, .about, .contact, .projects {
+.home, .about, .contact {
   display: flex;
   height: 25vh;
   align-items: center;
@@ -87,25 +87,7 @@ body {
   text-decoration: none;  
 }
 
-.projects {
-  background: url('./assets/images/img-4.jpg') center center/cover no-repeat;
-  background-blend-mode: multiply;
-  background-color: #999;
-  color: white;
-}
-  
-.post-block {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: auto;
-  width: auto;
-  max-width: 800px;
-  margin: 5vh auto;
-  padding: 5vh;
-}
-
-.header {
+/* .header {
   margin: 0 0 15px 0;
 }
 
@@ -129,7 +111,7 @@ body {
 .content {
   display: block;
   text-align: center;
-}
+} */
 
 .image {
   display: flex;
@@ -137,10 +119,4 @@ body {
   height: auto;
   max-height: 300px;
   margin: 1rem auto;
-}
-
-hr {
-  width: 80vw;
-  max-width: 600px;
-  margin: 0 auto;
 }

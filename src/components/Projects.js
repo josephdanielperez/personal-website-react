@@ -1,12 +1,22 @@
 import React from 'react'
+import './Projects.css'
 
-import '../App.css'
 import ProjectItem from './Project'
 
 function Projects() {    
   return (
-    <div>
-      <h1 className='projects'>Projects</h1>
+    <div className='projects-container'>
+      <h1 className='projects-header'>Projects</h1>
+
+      <ProjectItem
+        title='Twitch Stream Team'
+        text='Built with ReactJS, this website utilizes an API provided by Twitch to showcase a stream team (Astro Gaming). This application renders out a team on Twitch, then renders out every streamer on the team, allowing the user to easily view and navigate through all the streamers. This projects was built to expand my knowledge and futher my skills with API calls.'
+        label='React'
+        github='https://github.com/p14/twitch-stream-team'
+        demo='https://p14.github.io/twitch-stream-team'
+      />
+
+      <hr />
       
       <ProjectItem
         title='MyFitnessApp'

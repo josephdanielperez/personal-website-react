@@ -1,0 +1,36 @@
+.project-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  max-width: 800px;
+  margin: 5vh auto;
+  padding: 5vh;
+}
+
+.project-header {
+  margin: 0 0 15px 0;
+}
+
+.project-title {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.project-links {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.project-links a, .project-links a:visited {
+  color: black;
+  margin: 0 5px;
+}
+
+.project-description {
+  display: block;
+  text-align: center;
+}
