@@ -5,7 +5,7 @@ import ProjectItem from './Project'
 
 function Projects() {    
   return (
-    <>
+    <div>
       <h1 className='projects'>Projects</h1>
       
       <ProjectItem
@@ -55,7 +55,7 @@ function Projects() {
         github='https://github.com/p14/Gaming-News-CLI'
         demo='https://youtu.be/QUj00KNIsi0'
       />
-    </>
+    </div>
   )
 }
 

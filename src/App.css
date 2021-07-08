@@ -23,7 +23,7 @@ body {
   background: url('./assets/images/img-2.jpg') center center/cover no-repeat;
   background-blend-mode: multiply;
   background-color: #999;
-  color: #fff;
+  color: white;
 }
 
 .about-block {
@@ -46,7 +46,7 @@ body {
   background: url('./assets/images/img-3.jpg') center center/cover no-repeat;
   background-blend-mode: multiply;
   background-color: #999;
-  color: #fff;
+  color: white;
 }
 
 .contact-block {
@@ -55,7 +55,6 @@ body {
   justify-content: space-between;
   text-align: center;
   height: auto;
-  /* min-height: 57.7vh; */
   width: auto;
   margin: 100px auto;
 }
@@ -92,7 +91,7 @@ body {
   background: url('./assets/images/img-4.jpg') center center/cover no-repeat;
   background-blend-mode: multiply;
   background-color: #999;
-  color: #fff;
+  color: white;
 }
   
 .post-block {
