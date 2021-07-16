@@ -17,6 +17,16 @@ function Projects() {
       />
 
       <hr />
+
+      <ProjectItem
+        title='Workout Generator'
+        text='Built with ReactJS, this web application is a simplied version of a workout generator I previously built. This application generatres a randomized array of eight HIIT exercise objects. The exercises are shown in cards, which the user can go forward or backward to navigate as they complete each exercise. This project is intended for personal use and also showcases the generator concept in a simplified format.'
+        label='React'
+        github='https://github.com/p14/workout-generator'
+        demo='https://p14.github.io/workout-generator'
+      />
+
+      <hr />
       
       <ProjectItem
         title='MyFitnessApp'
