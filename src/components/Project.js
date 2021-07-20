@@ -11,9 +11,9 @@ function Project(props) {
           <a href={props.github} target='_blank' rel='noreferrer'>Github</a>
             
           {props.demo !== '' &&
-          <>
+          <React.Fragment>
             | <a href={props.demo} target='_blank' rel='noreferrer'>Demo</a>
-          </>
+          </React.Fragment>
           }
         </div>
       </div>
