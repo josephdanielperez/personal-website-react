@@ -21,17 +21,25 @@
   flex: 1;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  flex-direction: column;
   height: auto;
-  width: auto;
-  max-width: 800px;
+  width: 90%;
+  max-width: 1000px;
   margin: 5vh auto;
   padding: 5vh;
 }
 
+.about-text {
+  margin-right: 25px;
+  text-align: left;
+}
+
 .about-title {
   font-size: 2.2rem;
+  margin: 15px 0;
+}
+
+.about-text > p {
+  margin: 1.5rem 0;
 }
 
 .about-image {
@@ -40,4 +48,14 @@
   height: auto;
   max-height: 300px;
   margin: 1rem auto;
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text {
+    text-align: center;
+  }
 }

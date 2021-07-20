@@ -10,11 +10,16 @@ function About() {
       <h1 className='about-header'>About</h1>
 
       <div className='about-content'>
-        <h1 className='about-title'>Joseph Perez</h1>
-        <div>
-          <img className='about-image' src={img} alt='profile' />
-          <p>Joseph is an aspiring full-time software engineer based just outside of Seattle, Washington. He has worked as an online content creator partnering up with brands such as Twitch, Astro Gaming, Logitech, Blue Microphones, AMD, and more. Having an interest in all things tech, his curiosity brought him to software engineering. His passion for coding was solidified throughout his time at Flatiron School where he sought to expand his abilities to make a career change after being self-taught as a hobbyist for a couple of years.</p>
+        <div className='about-text'>
+          <h1 className='about-title'>Joseph Perez</h1>
+          <p>I am an aspiring full-time software engineer based just outside of Seattle, Washington. I have worked as an online content creator partnering up with brands such as Twitch, Astro Gaming, Logitech, Blue Microphones, AMD, and more. Having an interest in all things tech, my curiosity brought me to software engineering. My passion for coding was solidified throughout my time at Flatiron School where I sought to expand his abilities to make a career change after being self-taught as a hobbyist for a couple of years.
+          </p>
+
+          <p>Currently, I have been expanding my knowledge in full stack development through building out projects, contributing to open source projects, and taking on algorithm challenges. I am open for new opportunities to contribute towards an awesome team.
+          </p>
         </div>
+
+        <img className='about-image' src={img} alt='profile' />
       </div>
     </div>
   )
